@@ -1,4 +1,4 @@
-import { Sidebar } from "./_components/sidebar";
+import { Navbar } from "./_components/navbar";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -9,7 +9,7 @@ export default function DashboardLayout({
  }: DashboardLayoutProps) {
   return (
     <main className="h-full">
-        <Sidebar/>
+        <Navbar/>
         <div className="pl-[60px] h-full">
             {children}
         </div>

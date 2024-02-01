@@ -6,9 +6,6 @@ export default function DashboardPage() {
       <div>
         <h1>Dashboard Page</h1>
       </div>
-    <div>
-      <UserButton />
-    </div>
     </div>
   );
 }
