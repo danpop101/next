@@ -28,6 +28,10 @@
     "lint": {
       "name": "lint",
       "command": "npm run lint"
+    },
+    "npx convex dev": {
+      "name": "convex",
+      "command": "npx convex dev"
     }
   }
 }
